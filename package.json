@@ -1,11 +1,28 @@
 {
-  "name": "biject",
+  "name": "cryptomancy-bijection",
   "version": "1.0.0",
-  "description": "",
+  "description": "A crude implementation of a feistel cipher",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "cryptomancy",
+    "feistel",
+    "bijection",
+    "cipher",
+    "shuffle"
+  ],
+  "author": "ansuz",
+  "license": "ISC",
+  "dependencies": {
+    "cryptomancy-format": "^1.0.2",
+    "cryptomancy-source": "^1.0.3",
+    "cryptomancy-util": "^1.0.3",
+    "tweetnacl": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansuz/cryptomancy-bijection.git"
+  }
 }
